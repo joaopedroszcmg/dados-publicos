@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/pncp-licitacoes.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/uk-tenders.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/eu-tenders.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/au-contracts.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/cnpj-empresas.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/ats-jobs.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/shopify-monitor.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/actors/anvisa-registros.html</loc></url>
-<url><loc>https://joaopedroszcmg.github.io/dados-publicos/guias/licitacoes-ti-pncp.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/pncp-licitacoes.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/pncp-licitacoes.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/uk-tenders.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/uk-tenders.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/eu-tenders.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/eu-tenders.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/au-contracts.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/au-contracts.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/cnpj-empresas.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/cnpj-empresas.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/ats-jobs.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/ats-jobs.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/shopify-monitor.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/shopify-monitor.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/actors/anvisa-registros.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/anvisa-registros.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/guides/licitacoes-ti-pncp-en.html</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/guias/licitacoes-ti-pncp.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/en/</loc><xhtml:link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/pncp-licitacoes.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/pncp-licitacoes.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/uk-tenders.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/uk-tenders.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/eu-tenders.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/eu-tenders.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/au-contracts.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/au-contracts.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/cnpj-empresas.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/cnpj-empresas.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/ats-jobs.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/ats-jobs.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/shopify-monitor.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/shopify-monitor.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/actors/anvisa-registros.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/anvisa-registros.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/guias/licitacoes-ti-pncp.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/guides/licitacoes-ti-pncp-en.html"/></url>
+<url><loc>https://joaopedroszcmg.github.io/dados-publicos/pt/</loc><xhtml:link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/"/></url>
 </urlset>

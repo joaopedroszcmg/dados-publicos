@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vagas dos sites de carreira | Camargo Data</title><meta name="description" content="Vagas direto dos sites de carreira das empresas, em um formato só.">
+<link rel="canonical" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/ats-jobs.html">
+<link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/actors/ats-jobs.html">
+<link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/ats-jobs.html"><link rel="alternate" hreflang="x-default" href="https://joaopedroszcmg.github.io/dados-publicos/en/actors/ats-jobs.html">
+<link rel="stylesheet" href="../../assets/site.css"><link rel="icon" href="../../assets/icons/favicon.png">
+</head><body><div class="wrap">
+<header class="top"><a class="brand" href="../../pt/">Camargo Data</a>
+<nav class="nav" aria-label="Navegação"><a href="../../pt/#catalogo">Catálogo</a><a href="../../pt/#guias">Guias</a><a class="lang" href="../../en/actors/ats-jobs.html" hreflang="en">English</a></nav></header>
+<main><p class="crumb"><a href="../#catalogo">Catálogo</a> / Vagas</p>
+<section class="head" style="--c:#7846C8"><img src="../../assets/icons/ats-jobs.png" alt="" width="104" height="104">
+<div><h1>Vagas dos sites de carreira</h1><p>Vagas direto dos sites de carreira das empresas, em um formato só.</p><a class="btn primary" href="https://apify.com/joaocamargo/company-jobs-feed">Abrir na Apify Store</a></div></section>
+<dl class="facts" style="--c:#7846C8"><div><dt>Cobertura</dt><dd>Global (Greenhouse, Lever, Ashby, SmartRecruiters)</dd></div>
+<div><dt>Preço</dt><dd>US$ 1,00 por 1.000 resultados</dd></div>
+<div><dt>Fonte</dt><dd>boards-api.greenhouse.io</dd></div>
+<div><dt>Formatos</dt><dd>JSON, CSV, Excel, API</dd></div></dl>
+<p class="desc">Informe empresas (por link do site de carreiras ou sistema:empresa) e receba as vagas abertas num esquema único, com salário quando publicado, filtro por palavra-chave, local e remoto, e modo monitor com vagas novas e encerradas.</p>
+<div class="cols"><section><h2>O que você recebe</h2><ul><li>Empresa</li><li>Cargo</li><li>Departamento</li><li>Local e remoto</li><li>Salário (quando publicado)</li><li>Data de publicação</li><li>Status (aberta/encerrada)</li><li>Link da vaga</li></ul></section>
+<section><h2>Para que serve</h2><ul><li>Feed de vagas de empresas-alvo para recrutamento</li><li>Sinal de contratação para prospecção B2B</li><li>Pesquisa salarial por cargo e empresa</li></ul></section></div>
+<section class="ex"><h2>Exemplo de entrada</h2><pre><code>{
+  &quot;companies&quot;: [
+    &quot;greenhouse:stripe&quot;,
+    &quot;https://jobs.lever.co/spotify&quot;,
+    &quot;https://careers.smartrecruiters.com/BoschGroup&quot;
+  ],
+  &quot;maxJobsPerCompany&quot;: 10,
+  &quot;maxResults&quot;: 30
+}</code></pre></section>
+</main>
+<footer>Dados públicos oficiais e de empresas. Sem dados pessoais. Execute na Apify, pague por uso. <a href="https://apify.com/joaocamargo">Apify Store</a></footer>
+</div></body></html>

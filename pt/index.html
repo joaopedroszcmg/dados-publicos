@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Camargo Data — Dados públicos e de empresas, prontos via API</title><meta name="description" content="Ferramentas que buscam registros oficiais de vários países e entregam em JSON, CSV ou Excel. Você paga só pelo que usa. Nada de dados pessoais.">
+<link rel="canonical" href="https://joaopedroszcmg.github.io/dados-publicos/pt/">
+<link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/">
+<link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/"><link rel="alternate" hreflang="x-default" href="https://joaopedroszcmg.github.io/dados-publicos/en/">
+<link rel="stylesheet" href="../assets/site.css"><link rel="icon" href="../assets/icons/favicon.png">
+</head><body><div class="wrap">
+<header class="top"><a class="brand" href="../pt/">Camargo Data</a>
+<nav class="nav" aria-label="Navegação"><a href="../pt/#catalogo">Catálogo</a><a href="../pt/#guias">Guias</a><a class="lang" href="../en/" hreflang="en">English</a></nav></header>
+<main><section class="hero"><div><h1>Dados públicos e de empresas, prontos via API</h1><p>Ferramentas que buscam registros oficiais de vários países e entregam em JSON, CSV ou Excel. Você paga só pelo que usa. Nada de dados pessoais.</p>
+<div class="btns"><a class="btn primary" href="#catalogo">Ver o catálogo</a><a class="btn" href="https://apify.com/joaocamargo">Todas na Apify Store</a></div></div>
+<figure class="slip"><figcaption>Um registro de exemplo (PNCP)</figcaption><pre><code>{
+  &quot;titulo&quot;: &quot;Aquisição de notebooks para a rede municipal de ensino&quot;,
+  &quot;orgao&quot;: &quot;Prefeitura Municipal&quot;,
+  &quot;uf&quot;: &quot;SP&quot;,
+  &quot;modalidade&quot;: &quot;Pregão Eletrônico&quot;,
+  &quot;valorEstimado&quot;: 412500,
+  &quot;dataEncerramentoPropostas&quot;: &quot;2026-12-04T09:00:00-03:00&quot;,
+  &quot;diasParaEncerrar&quot;: 9,
+  &quot;linkPncp&quot;: &quot;https://pncp.gov.br/app/editais/…&quot;
+}</code></pre></figure></section>
+<div id="catalogo"><section class="fam" style="--c:#1E5AC8"><h2>Compras públicas</h2><p>Licitações abertas e contratos de governos, direto das fontes oficiais.</p>
+<a class="row" href="actors/pncp-licitacoes.html"><img src="../assets/icons/pncp-licitacoes.png" alt="" width="56" height="56"><span><span class="nm">Licitações abertas do PNCP</span><span class="tg">Licitações abertas do PNCP, com alerta só do que é novo.</span></span><span class="cov">Brasil, todas as esferas</span><span class="pr">US$ 2,00<small>por 1.000 resultados</small></span></a>
+<a class="row" href="actors/uk-tenders.html"><img src="../assets/icons/uk-tenders.png" alt="" width="56" height="56"><span><span class="nm">Licitações do Reino Unido</span><span class="tg">Licitações e contratos do governo britânico (Find a Tender).</span></span><span class="cov">Reino Unido</span><span class="pr">US$ 3,00<small>por 1.000 resultados</small></span></a>
+<a class="row" href="actors/eu-tenders.html"><img src="../assets/icons/eu-tenders.png" alt="" width="56" height="56"><span><span class="nm">Licitações da União Europeia</span><span class="tg">Licitações públicas de toda a União Europeia, do TED.</span></span><span class="cov">União Europeia (TED)</span><span class="pr">US$ 3,00<small>por 1.000 resultados</small></span></a>
+<a class="row" href="actors/au-contracts.html"><img src="../assets/icons/au-contracts.png" alt="" width="56" height="56"><span><span class="nm">Contratos do governo australiano</span><span class="tg">Contratos adjudicados pelo governo australiano (AusTender).</span></span><span class="cov">Austrália (governo federal)</span><span class="pr">US$ 3,00<small>por 1.000 resultados</small></span></a></section>
+<section class="fam" style="--c:#14965A"><h2>Empresas e registros</h2><p>Dados cadastrais e registros oficiais de empresas e produtos.</p>
+<a class="row" href="actors/cnpj-empresas.html"><img src="../assets/icons/cnpj-empresas.png" alt="" width="56" height="56"><span><span class="nm">Consulta CNPJ em lote</span><span class="tg">Consulta de CNPJ em lote, com os dados abertos da Receita Federal.</span></span><span class="cov">Brasil (Receita Federal)</span><span class="pr">US$ 2,00<small>por 1.000 resultados</small></span></a>
+<a class="row" href="actors/anvisa-registros.html"><img src="../assets/icons/anvisa-registros.png" alt="" width="56" height="56"><span><span class="nm">Registros de medicamentos da Anvisa</span><span class="tg">Registros de medicamentos da Anvisa, com monitor de mudanças.</span></span><span class="cov">Brasil (Anvisa)</span><span class="pr">US$ 3,00<small>por 1.000 resultados</small></span></a></section>
+<section class="fam" style="--c:#7846C8"><h2>Vagas</h2><p>Vagas publicadas nos sites de carreira das empresas.</p>
+<a class="row" href="actors/ats-jobs.html"><img src="../assets/icons/ats-jobs.png" alt="" width="56" height="56"><span><span class="nm">Vagas dos sites de carreira</span><span class="tg">Vagas direto dos sites de carreira das empresas, em um formato só.</span></span><span class="cov">Global (Greenhouse, Lever, Ashby, SmartRecruiters)</span><span class="pr">US$ 1,00<small>por 1.000 resultados</small></span></a></section>
+<section class="fam" style="--c:#E06A14"><h2>E-commerce</h2><p>Catálogos, preços e estoque de lojas online.</p>
+<a class="row" href="actors/shopify-monitor.html"><img src="../assets/icons/shopify-monitor.png" alt="" width="56" height="56"><span><span class="nm">Monitor de lojas Shopify</span><span class="tg">Catálogo, preços e estoque de lojas Shopify, com alerta de mudanças.</span></span><span class="cov">Qualquer loja Shopify pública</span><span class="pr">US$ 1,00<small>por 1.000 resultados</small></span></a></section></div>
+<section class="guides" id="guias"><h2>Guias</h2><ul><li><a href="guias/licitacoes-ti-pncp.html">Como receber todo dia as licitações de TI abertas no PNCP (sem programar)</a></li></ul></section></main>
+<footer>Dados públicos oficiais e de empresas. Sem dados pessoais. Execute na Apify, pague por uso. <a href="https://apify.com/joaocamargo">Apify Store</a></footer>
+</div></body></html>

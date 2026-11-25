@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to get Brazil's open IT tenders every day (no code)</title><meta name="description" content="Track Brazilian public tenders for laptops, servers and software on PNCP and receive only new calls, with line items and values.">
+<link rel="canonical" href="https://joaopedroszcmg.github.io/dados-publicos/en/guides/licitacoes-ti-pncp-en.html">
+<link rel="alternate" hreflang="en" href="https://joaopedroszcmg.github.io/dados-publicos/en/guides/licitacoes-ti-pncp-en.html">
+<link rel="alternate" hreflang="pt-BR" href="https://joaopedroszcmg.github.io/dados-publicos/pt/guias/licitacoes-ti-pncp.html"><link rel="alternate" hreflang="x-default" href="https://joaopedroszcmg.github.io/dados-publicos/en/guides/licitacoes-ti-pncp-en.html">
+<link rel="stylesheet" href="../../assets/site.css"><link rel="icon" href="../../assets/icons/favicon.png">
+</head><body><div class="wrap">
+<header class="top"><a class="brand" href="../../en/">Camargo Data</a>
+<nav class="nav" aria-label="Navigation"><a href="../../en/#catalogo">Catalogue</a><a href="../../en/#guias">Guides</a><a class="lang" href="../../pt/guias/licitacoes-ti-pncp.html" hreflang="pt">Português</a></nav></header>
+<main><article class="prose"><h1>How to get Brazil's open IT tenders every day (no code)</h1><h3>The problem</h3>
+<p>Brazil's <strong>national public procurement portal (PNCP)</strong> lists tenders from every level of government: federal, state and municipal. Finding the ones that matter to your company every day is slow: the portal's search is manual, it doesn't tell you when something new appears, and it won't give you the line items in a spreadsheet.</p>
+<h3>The solution in five minutes</h3>
+<p><a href="https://apify.com/joaocamargo/pncp-apify">Brazil open tenders (PNCP)</a> searches open calls by keyword, state and procurement method, and can return <strong>only the calls you haven't seen yet</strong>.</p>
+<ol>
+<li>Open the Actor on Apify Store and click <strong>Try for free</strong>.</li>
+<li>Paste this input (electronic reverse auctions for IT in São Paulo, new calls only):</li>
+</ol>
+<pre><code>{ &quot;keywords&quot;: [&quot;notebook&quot;, &quot;computador&quot;, &quot;servidor&quot;], &quot;ufs&quot;: [&quot;SP&quot;], &quot;modalidades&quot;: [&quot;6&quot;], &quot;onlyNew&quot;: true, &quot;monitorId&quot;: &quot;it-sp&quot;, &quot;maxResults&quot;: 100 }</code></pre>
+<ol>
+<li>Run it once to create the baseline. Then schedule one run a day in <strong>Schedules</strong>.</li>
+<li>In <strong>Integrations</strong>, send the results to email, Google Sheets, Slack or a webhook.</li>
+</ol>
+<p>Every day you get only the new calls, with buyer, description, estimated value, bid deadline and the link to the notice. Keywords are in Portuguese because the notices are.</p>
+<h3>Useful variations</h3>
+<ul>
+<li><strong>Direct purchases closing within 7 days:</strong> <code>&quot;modalidades&quot;: [&quot;8&quot;], &quot;closingWithinDays&quot;: 7</code>.</li>
+<li><strong>Line items and unit prices:</strong> <code>&quot;includeDetails&quot;: true</code> adds each item with quantity, value and small-business exclusivity.</li>
+<li><strong>Large works only:</strong> <code>&quot;minValue&quot;: 1000000</code> with <code>&quot;modalidades&quot;: [&quot;4&quot;, &quot;5&quot;]</code>.</li>
+<li><strong>Several monitors:</strong> use a different <code>monitorId</code> per client, segment or region.</li>
+</ul>
+<h3>What it costs</h3>
+<p>Pay per use: each delivered notice is charged once (prices on the Actor's Pricing tab). Repeated notices in monitor mode are free. You can cap the spend per run.</p>
+<h3>Limits</h3>
+<p>Data comes from PNCP's public APIs. When the portal is slow, runs take longer. The Actor doesn't submit bids or access the bidding systems: it finds the calls and takes you to them.</p></article></main>
+<footer>Official public and company data. No personal data. Run on Apify, pay per use. <a href="https://apify.com/joaocamargo">Apify Store</a></footer>
+</div></body></html>

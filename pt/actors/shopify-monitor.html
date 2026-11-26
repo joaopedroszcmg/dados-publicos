@@ -15,16 +15,16 @@
 <div><dt>Preço</dt><dd>US$ 1,00 por 1.000 resultados</dd></div>
 <div><dt>Fonte</dt><dd>&lt;loja&gt;</dd></div>
 <div><dt>Formatos</dt><dd>JSON, CSV, Excel, API</dd></div></dl>
-<p class="desc">Lê o catálogo público de lojas Shopify: produtos, variantes, preço, preço riscado, desconto e disponibilidade. No modo monitor, entrega só mudanças: produto novo, queda ou alta de preço, volta ao estoque e esgotado.</p>
-<div class="cols"><section><h2>O que você recebe</h2><ul><li>Loja</li><li>Produto e variante</li><li>Preço e preço riscado</li><li>Desconto</li><li>Moeda</li><li>Disponibilidade</li><li>Link do produto</li></ul></section>
-<section><h2>Para que serve</h2><ul><li>Monitorar preços de concorrentes</li><li>Alertas de volta ao estoque</li><li>Exportar o catálogo de uma loja para planilha</li></ul></section></div>
+<p class="desc">Lê o catálogo público de lojas Shopify: produtos, variantes, preço, preço riscado, desconto e disponibilidade. Aceita a loja inteira ou só uma coleção (URL /collections/&lt;handle&gt;). No modo monitor, entrega só mudanças: produto novo, queda ou alta de preço, volta ao estoque e esgotado.</p>
+<div class="cols"><section><h2>O que você recebe</h2><ul><li>Loja</li><li>Coleção</li><li>Produto e variante</li><li>Preço e preço riscado</li><li>Desconto</li><li>Moeda</li><li>Disponibilidade</li><li>Link do produto</li></ul></section>
+<section><h2>Para que serve</h2><ul><li>Monitorar preços de concorrentes</li><li>Alertas de volta ao estoque</li><li>Acompanhar só uma coleção (ex.: promoções ou lançamentos)</li><li>Exportar o catálogo de uma loja para planilha</li></ul></section></div>
 <section class="ex"><h2>Exemplo de entrada</h2><pre><code>{
   &quot;stores&quot;: [
     &quot;www.allbirds.com&quot;,
     &quot;www.kyliecosmetics.com&quot;
   ],
   &quot;maxProductsPerStore&quot;: 50,
-  &quot;maxResults&quot;: 100
+  &quot;maxResults&quot;: 45
 }</code></pre></section>
 </main>
 <footer>Dados públicos oficiais e de empresas. Sem dados pessoais. Execute na Apify, pague por uso. <a href="https://apify.com/joaocamargo">Apify Store</a></footer>
